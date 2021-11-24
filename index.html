@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Calculador IMC</title>
+</head>
+
+<body>
+    <!-- DISEÑO DE PÁGINA -->
+    <div class="container">
+        <form action="">
+            <br>
+            <br>
+            <div>
+                <h1 class="t1">¡BIENVENIDOS!</h1>
+                <p>Conozca su IMC (Índice de Masa Muscular) y <br>
+                    la categoria de indice donde se encuentra</p>
+            </div>
+
+            <div class="form-group" class="div1">
+                <label class="control-label" for="peso">Ingrese el Peso (kg)</label>
+                <input class="form-control" id="peso" type="text" placeholder="Peso">
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="peso">Ingrese la Altura (m)</label>
+                <input class="form-control" type="text" id="altura" placeholder="Altura">
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-success active " id="calc"><span class="glyphicon glyphicon-ok"></span>
+                    Calcular</button>
+                <button class="btn btn-danger active" id="canc"><span class="glyphicon glyphicon-remove"></span>
+                    Cancelar</button>
+            </div>
+
+            <div class="img1">
+                <img src="imagenes\talla.jpg" class="responsive" alt=""  height="150">
+            </div>
+
+            <div class="vid1">
+                <video width="600" height="300" controls>
+                    <source src="imagenes/IMC.mp4" type="video/mp4">
+                </video>
+            </div>
+    </div>
+    </form>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="funciones.js"></script>
+</body>
+
+<footer>
+    <div class="root">
+        <div class="icons-container">
+            <a href="https://www.facebook.com/nutricion.salud.arg" class="icon icon--facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/nutricion.salud.arg/" class="icon icon--instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+</html>

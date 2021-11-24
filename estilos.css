@@ -1,0 +1,69 @@
+body{
+   background-color: #F3F0D7 ; 
+   
+}
+
+.t1{
+   text-align: center;
+   color: #193498;
+
+}
+p{ 
+   text-align: center;
+   margin-top: 20px;
+   margin-right: 10px;
+}
+
+
+button{
+   margin-right: 30px;
+   margin-bottom: 5px;
+   }
+
+.img1{
+   margin-top: -350px;
+   margin-bottom: -150px;
+   margin-left: 240px;
+}
+
+.vid1{
+   margin-top: 300px;
+   margin-bottom: 100px;
+   margin-left: 550px;
+}
+footer{
+   margin-top: -45px;
+}
+
+.icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30px;
+   height: 30px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+}
+.icon:not(:first-child){
+   margin-left: 9px;
+}
+
+.icon:hover{
+   opacity: 1;
+   transform: scale(1.1);
+}
+
+
+.icons-container{
+   display: flex;
+   justify-content: center;
+}
+
+.icon--facebook{
+   background-color: #3b5998  ;
+}
+
+.icon--instagram{
+   background-color: #3f729b;
+}
