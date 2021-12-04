@@ -4,69 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <title>Calculador IMC</title>
+    <title>Calculadora IMC</title>
+    <link rel="icon" href="imagenes/saludd..png" type="image/png" />
 </head>
 
 <body>
     <!-- DISEÑO DE PÁGINA -->
-    <div class="container">
+    <div class="contenedor">
         <form action="">
             <br>
             <br>
-            <div>
-                <h1 class="t1">¡BIENVENIDOS!</h1>
-                <p>Conozca su IMC (Índice de Masa Muscular) y <br>
-                    la categoria de indice donde se encuentra</p>
+            <div class="main">
+                <header>
+                    <img src="imagenes/saludd..png" alt="" width="100" height="100" class="img1">
+                    <h1 class="t1"><span style="color: black;">INDICE</span><span style="color:#99A799;">
+                            DE MASA CORPORAL (IMC)</span></h1>
+                </header>
+                <div class="par1">
+                    <p class="p1">El<b> índice de masa corporal (IMC)</b> es la relación entre la masa corporal de una
+                        persona <br>
+                        y su estatura. Según los valores propuestos por la Organización Mundial de la Salud (OMS),<br>
+                        el <b> IMC </b>uno de los principales recursos para evaluar el estado nutricional.</p>
+                </div>
+                <h4 class="tit2"><b> VIDEO EXPLICATIVO SOBRE IMC</b></h4>
+                <div class="vid1">
+
+                    <video width="700" height="300" controls>
+                        <source src="imagenes/IMC.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h4 class="tit2">¿CÓMO SE MIDE EL IMC?</h4>
+                <p class="p2">En la siguiente calculadora debe ingresar su Peso en <b>Kilogramos</b>  <br>
+                 y la estatura en <b>Metro</b> para poder realizar el calculo de su IMC </p>
+                <div class="img2">
+                    <img src="imagenes/IMC2.png" alt="" width="350" height="250" class="img1">
+                </div>
+            </div>
+            <div class="calcu panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">Calcule IMC para adultos</h4>
+                </div>
+                <div class="panel-body">
+                    <label class="control-label" for="peso"> Ingrese el Peso (kg)</label>
+                    <input class="form-control" id="peso" type="text" placeholder="Peso" size="30">
+                    <div class="form-group">
+                        <label class="control-label" for="peso"> Ingrese la Altura (m)</label>
+                        <input class="form-control" type="text" id="altura" placeholder="Altura">
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-success active panel-headingpanel-heading" id="calc"><span
+                                class="glyphicon glyphicon-ok"></span>
+                            Calcular</button>
+                        <button class="btn btn-danger active" id="canc"><span class="glyphicon glyphicon-remove"></span>
+                            Cancelar</button>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="form-group" class="div1">
-                <label class="control-label" for="peso">Ingrese el Peso (kg)</label>
-                <input class="form-control" id="peso" type="text" placeholder="Peso">
-            </div>
 
-            <div class="form-group">
-                <label class="control-label" for="peso">Ingrese la Altura (m)</label>
-                <input class="form-control" type="text" id="altura" placeholder="Altura">
-            </div>
-
-            <div class="form-group">
-                <button class="btn btn-success active " id="calc"><span class="glyphicon glyphicon-ok"></span>
-                    Calcular</button>
-                <button class="btn btn-danger active" id="canc"><span class="glyphicon glyphicon-remove"></span>
-                    Cancelar</button>
-            </div>
-
-            <div class="img1">
-                <img src="imagenes\talla.jpg" class="responsive" alt=""  height="150">
-            </div>
-
-            <div class="vid1">
-                <video width="600" height="300" controls>
-                    <source src="imagenes/IMC.mp4" type="video/mp4">
-                </video>
-            </div>
     </div>
+
     </form>
+    <footer>
+        <div class="root">
+            <div class="icons-container">
+                <a href="https://www.facebook.com/nutricion.salud.arg" class="icon icon--facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/nutricion.salud.arg/" class="icon icon--instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="funciones.js"></script>
 </body>
 
-<footer>
-    <div class="root">
-        <div class="icons-container">
-            <a href="https://www.facebook.com/nutricion.salud.arg" class="icon icon--facebook">
-                <i class="fab fa-facebook"></i>
-            </a>
-            <a href="https://www.instagram.com/nutricion.salud.arg/" class="icon icon--instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-    </div>
-</footer>
+
+
 
 </html>

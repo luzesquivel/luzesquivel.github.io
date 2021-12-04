@@ -1,19 +1,50 @@
 body{
-   background-color: #F3F0D7 ; 
+   background-color: #ADC2A9; 
    
+}
+
+.contenedor{
+   width: 1000px;
+   height: 1000px;
+   margin:0 auto;
+   overflow: hidden;
+   max-width: 1000px;
+   background-color:#D3E4CD;
 }
 
 .t1{
    text-align: center;
-   color: #193498;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   margin-top: -10px;
+}
 
+.p1{
+   margin-top: 40px;
+   margin-right: -15px;
+   margin-left: 100px;
+}
+
+.p2{
+   margin-top: 10px;
+   margin-right: -15px;
+   margin-left: 100px;
 }
 p{ 
-   text-align: center;
+   text-align: justify;
    margin-top: 20px;
-   margin-right: 10px;
 }
 
+.calcu{
+  width: 30%;
+  border: transparent 3px solid;
+  margin-top: -120px;
+  margin-left: 100px;
+  margin-right: auto;
+   
+}
+form label{
+   margin-left: 10px;
+}
 
 button{
    margin-right: 30px;
@@ -21,18 +52,35 @@ button{
    }
 
 .img1{
-   margin-top: -350px;
+   margin-top: -120px;
    margin-bottom: -150px;
-   margin-left: 240px;
+   margin-left: 120px;
+}
+
+.img2{
+   margin-top: 120px;
+   margin-left: 450px;
 }
 
 .vid1{
-   margin-top: 300px;
-   margin-bottom: 100px;
-   margin-left: 550px;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   margin-left: 100px;
+}
+
+.tit2{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 100px;
+   margin-top: 20px;
 }
 footer{
-   margin-top: -45px;
+   width: 1000px;
+   height: 30px;
+   margin:0 auto;
+   overflow: hidden;
+   max-width: 1000px;
+
+   background-color: #BFD8B8;
 }
 
 .icon{
@@ -53,7 +101,6 @@ footer{
    opacity: 1;
    transform: scale(1.1);
 }
-
 
 .icons-container{
    display: flex;
